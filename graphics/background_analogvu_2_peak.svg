@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="43"
+   height="50"
+   viewBox="0 0 43 50"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="background_analogvu_2_peak.svg">
+  <defs
+     id="defs4">
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <pattern
+       id="EMFhbasepattern-2"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <clipPath
+       id="clipEmfPath1"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4146"
+         d="m 0.524996,22.0498 c 0,-12.89987 10.124904,-23.32479 22.649804,-23.32479 12.5249,0 22.7249,10.42492 22.7249,23.32479 0,12.8999 -10.2,23.3999 -22.7249,23.3999 -12.5249,0 -22.649804,-10.5 -22.649804,-23.3999 z" />
+    </clipPath>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-7" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.0000001"
+     inkscape:cx="-8.8984403"
+     inkscape:cy="26.014847"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jorge Rosa</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>Email: jorge.bigarte@gmail.com
+Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1002.3622)">
+    <g
+       id="g4956"
+       transform="matrix(0,0.02442813,-0.02442813,0,15.321547,1036.2396)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4151"
+       d=""
+       clip-path="url(#clipEmfPath1)"
+       style="fill:none;stroke:none"
+       transform="translate(7.3339618,1013.8494)" />
+    <path
+       id="path4542"
+       d="m 21.474047,1011.5924 c -2.128215,0 -3.841166,1.713 -3.841166,3.8412 0,2.1282 1.712951,3.893 3.841166,3.893 2.12821,0 3.893072,-1.7648 3.893072,-3.893 0,-2.1282 -1.764862,-3.8412 -3.893072,-3.8412 z m -0.103816,1.0381 c 0.207626,0 0.467166,0.052 0.674798,0.1558 0.155724,0.052 0.363355,0.1557 0.467165,0.2595 0.155724,0.1558 0.25954,0.3115 0.311449,0.4672 0.103815,0.2076 0.155723,0.4152 0.155723,0.6229 0,0.2595 -0.05191,0.4671 -0.103815,0.6747 -0.05191,0.1558 -0.155724,0.3635 -0.25954,0.5192 -0.103817,0.2076 -0.207627,0.3633 -0.36335,0.519 -0.155724,0.2077 -0.25954,0.3634 -0.467172,0.571 l -0.934338,1.142 h 2.283939 v 0.6748 h -3.270184 v -0.5711 l 1.297694,-1.609 c 0.155723,-0.2077 0.25954,-0.3634 0.363355,-0.4672 0.10381,-0.1557 0.207626,-0.3114 0.311442,-0.4152 0.0519,-0.1558 0.103816,-0.3116 0.155724,-0.4672 0.05191,-0.1039 0.05191,-0.2595 0.05191,-0.4671 0,-0.2597 -0.05191,-0.5192 -0.207632,-0.6749 -0.103817,-0.1557 -0.311442,-0.2076 -0.570982,-0.2076 -0.103816,0 -0.25954,0 -0.363356,0.052 -0.155724,0.052 -0.259534,0.1038 -0.415258,0.1558 -0.103817,0.052 -0.259541,0.1038 -0.363356,0.2076 -0.103817,0.052 -0.207632,0.1557 -0.259541,0.2076 v -0.7786 c 0.05191,-0.052 0.155724,-0.1037 0.259541,-0.2077 0.103815,-0.052 0.259539,-0.1038 0.363356,-0.1556 0.155724,-0.052 0.259533,-0.1039 0.415258,-0.1558 0.155724,0 0.311448,-0.052 0.467172,-0.052 z"
+       style="opacity:1;fill:#ff00ff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.64885014"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
