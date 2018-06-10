@@ -1,0 +1,70 @@
+<!DOCTYPE template>
+
+<Template>
+
+	<WidgetGroup>
+	<ObjectName>AuxiliariesRack</ObjectName>	
+	<!-- <MinimumSize>-1,75</MinimumSize> -->
+	<MinimumSize>0,0</MinimumSize><!-- 0 == Forces to redraw the full row height, after we show/hide a module -->
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>vertical</Layout> 
+	<Children>
+	
+	<WidgetGroup><!-- Design only: For creating an horizontal long line -->
+	<ObjectName>HorizontalLineDarker</ObjectName>
+	<MinimumSize>0,1</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>				
+	<Children></Children>
+	</WidgetGroup>
+
+	<!-- WIDGETGROUP: Auxiliaries Tool Bar  -->		
+	<WidgetGroup>
+	<ObjectName>Options</ObjectName>
+	<MinimumSize>-1,30</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>	
+	<Children>
+	<Template src="skin:templates/auxiliaries/auxiliaries_toolbar.xml"></Template>	
+	</Children>
+	</WidgetGroup>	
+	
+	<WidgetGroup><!-- Design only: For creating an horizontal long line -->
+	<ObjectName>HorizontalLineDarker</ObjectName>
+	<MinimumSize>0,1</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>				
+	<Children></Children>
+	</WidgetGroup>
+
+	<!-- WIDGETGROUP: Auxiliaries Full Rack  -->	
+	<WidgetGroup>
+	<ObjectName>Auxiliaries</ObjectName>
+	<!-- <MinimumSize>1,45</MinimumSize> -->
+	<MinimumSize>1,-1</MinimumSize><!-- -1f == Hides the row, if no module is visible -->
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>
+	<Children>	
+
+	<Template src="skin:templates/auxiliaries/auxiliaries_module.xml"><SetVariable name="audiochannel">1</SetVariable></Template>	
+	<Template src="skin:templates/auxiliaries/auxiliaries_module.xml"><SetVariable name="audiochannel">2</SetVariable></Template>	
+	<Template src="skin:templates/auxiliaries/auxiliaries_module.xml"><SetVariable name="audiochannel">3</SetVariable></Template>	
+	<Template src="skin:templates/auxiliaries/auxiliaries_module.xml"><SetVariable name="audiochannel">4</SetVariable></Template>
+	
+	</Children>
+	<!-- Maximize/Minimize -->
+	<Connection>
+	<ConfigKey>[AuxMaximize],show</ConfigKey>
+	<BindProperty>visible</BindProperty>
+	</Connection>	
+	</WidgetGroup>
+	
+	</Children>
+	<!-- Show/Hide -->
+	<Connection>
+	<ConfigKey>[ToolBarAuxiliaries],show</ConfigKey>
+	<BindProperty>visible</BindProperty>
+	</Connection>
+	</WidgetGroup>
+	
+</Template>

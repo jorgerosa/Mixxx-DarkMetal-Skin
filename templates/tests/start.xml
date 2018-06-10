@@ -1,0 +1,236 @@
+<!DOCTYPE template>
+
+<Template>
+
+	<WidgetGroup>
+	<ObjectName>ToolBarTests</ObjectName>
+	<Pos>0,0</Pos>
+	<MinimumSize>1,46</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>
+	<Children>
+	
+	<WidgetGroup>
+	<MinimumSize>1,45</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>
+	<Children>		
+		
+	<WidgetGroup>
+	<ObjectName>VerticalLine</ObjectName>
+	<MinimumSize>3,45</MinimumSize>
+	<SizePolicy>f,me</SizePolicy>
+	<Children><!-- Design --></Children>
+	</WidgetGroup>
+	
+	<WidgetGroup>
+	<ObjectName>ToolBarTestsMetal</ObjectName>
+	<MinimumSize>1,45</MinimumSize>
+	<SizePolicy>me,f</SizePolicy>
+	<Layout>horizontal</Layout>
+	<Children>
+
+	<!-- SKIN ELEMENTS to be tested: http://www.mixxx.org/wiki/doku.php/creating_skins  -->
+	<!-- MIXXX CONTROLS to be tested: https://www.mixxx.org/wiki/doku.php/mixxxcontrols -->
+	
+	<!-- STARTS: TESTS -->
+	
+	
+	
+	
+	
+	
+	
+	
+
+		<!-- TESTING: -->		
+		<WidgetGroup>				
+		<MinimumSize>50,45</MinimumSize>
+		<SizePolicy>f,me</SizePolicy>
+		<Layout>vertical</Layout>
+		<Children>
+		<Label>
+		<Text>Tests Area</Text>
+		</Label>
+		</Children>			
+		</WidgetGroup>
+
+		<!-- TESTING: -->		
+		<WidgetGroup>				
+		<MinimumSize>50,45</MinimumSize>
+		<SizePolicy>f,me</SizePolicy>
+		<Layout>vertical</Layout>
+		<Children>		
+		<NumberDb>
+		<Text>%1</Text>
+		<Alignment>center</Alignment>
+		<Connection>
+		<ConfigKey>[Channel1],pregain</ConfigKey>
+		</Connection>
+		</NumberDb>
+		</Children>			
+		</WidgetGroup> 
+		
+		<!-- TESTING: -->
+		<WidgetGroup>				
+		<MinimumSize>50,45</MinimumSize>
+		<SizePolicy>f,me</SizePolicy>
+		<Layout>vertical</Layout>
+		<Children>	
+			<StarRating></StarRating> <!-- ?????.... -->
+		</Children>			
+		</WidgetGroup> 
+		
+		<!--
+		**********************************************
+		Tab - Show/hide widget group: Auxiliaries
+		**********************************************
+		-->	
+		
+		<PushButton>
+		<NumberStates>2</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/tab_auxiliaries.svg</Pressed>
+		<Unpressed>skin:graphics/tab_auxiliaries.svg</Unpressed>
+		</State>
+		<State>
+		<Number>1</Number>
+		<Pressed>skin:graphics/tab_auxiliaries_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/tab_auxiliaries_pressed.svg</Unpressed>
+		</State>		
+		<Connection>
+		<ConfigKey>[DecksAndMixerRack1],raise</ConfigKey>
+		</Connection>	
+		</PushButton>
+			
+		<!-- TESTING: -->
+		<PushButton>
+		<NumberStates>2</NumberStates>
+		<State>
+		<Number>0</Number>
+		<Pressed>skin:graphics/btn_view.svg</Pressed>
+		<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+		</State>
+		<State>
+		<Number>1</Number>
+		<Pressed>skin:graphics/btn_view_pressed.svg</Pressed>
+		<Unpressed>skin:graphics/btn_view_pressed.svg</Unpressed>
+		</State>		
+		<Connection>
+		<ConfigKey>[EffectRack1],clear</ConfigKey>
+		</Connection>	
+		</PushButton>
+		
+		<NumberRate>
+		<TooltipId>rate_display</TooltipId>
+		<Channel>1</Channel>
+		<Pos>X,Y</Pos>
+		<Size>W,H</Size>
+		<Connection>
+		<ConfigKey>[Channel1],rate</ConfigKey>
+		</Connection>
+		</NumberRate>
+		
+		<NumberDb>
+		<Text>Gain %1 dB</Text>
+		<Connection>
+		<ConfigKey>[Channel1],pregain</ConfigKey>
+		</Connection>
+		</NumberDb>
+		
+
+
+	
+	
+
+
+<PushButton>
+<NumberStates>3</NumberStates>
+
+<State>
+<Number>0</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
+
+<State>
+<Number>1</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
+
+<State>
+<Number>2</Number>
+<Pressed>skin:graphics/btn_view.svg</Pressed>
+<Unpressed>skin:graphics/btn_view.svg</Unpressed>
+</State>
+
+  <Connection>
+    <ConfigKey>[MiniDecks],show</ConfigKey>
+    <EmitOnDownPress>true</EmitOnDownPress>
+  <ButtonState>LeftButton</ButtonState>
+  </Connection>
+  <Connection>
+    <ConfigKey>[LongWavesRack],show</ConfigKey>
+    <EmitOnDownPress>false</EmitOnDownPress>
+    <ButtonState>LeftButton</ButtonState>
+  </Connection>
+  <Connection>
+    <ConfigKey>[SearchTextBox1],show</ConfigKey>
+    <EmitOnDownPress>true</EmitOnDownPress>
+    <ButtonState>RightButton</ButtonState>
+  </Connection>
+
+</PushButton>
+
+
+	
+
+
+
+
+<Splitter>
+	<Size>50,30</Size>
+	<SizePolicy>f,f</SizePolicy>
+    <MinimumSize>50,30</MinimumSize>
+    <MaximumSize>50,30</MaximumSize>
+    <!-- <SplitSizesConfigKey>[$skin_name],$config_key</SplitSizesConfigKey> -->
+    <SplitSizes>1,1,1</SplitSizes>
+    <Orientation>horizontal</Orientation>
+    <Collapsible>1,1,1</Collapsible>
+    <Children>
+      <WidgetGroup><Style>QGroupBox {background: yellow;}</Style></WidgetGroup>
+      <WidgetGroup><Style>QGroupBox {background: red;}</Style></WidgetGroup>
+      <WidgetGroup><Style>QGroupBox {background: blue;}</Style></WidgetGroup>
+      <!-- as many regular widgets as you like in here -->
+    </Children>
+</Splitter>
+
+
+
+
+
+
+	
+	
+	<!-- ENDS: TESTS -->
+	
+	</Children>
+	</WidgetGroup>
+
+	<WidgetGroup>
+	<ObjectName>VerticalLine</ObjectName>
+	<MinimumSize>3,45</MinimumSize>
+	<SizePolicy>f,me</SizePolicy>
+	<Children><!-- Design --></Children>
+	</WidgetGroup>	
+		
+	
+	</Children>
+	</WidgetGroup>
+	
+	</Children>
+	</WidgetGroup>	
+
+</Template>
