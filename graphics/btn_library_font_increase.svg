@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="26"
+   height="26"
+   viewBox="0 0 26 26"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="btn_library_font_increase.svg">
+  <defs
+     id="defs4">
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4733"
+       id="radialGradient4725-4-0"
+       cx="768.51617"
+       cy="167.47235"
+       fx="768.51617"
+       fy="167.47209"
+       r="24.596836"
+       gradientTransform="matrix(0.42615669,4.625377e-6,4.1161196e-6,0.43858865,-313.87008,964.54441)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4733">
+      <stop
+         style="stop-color:#170b28;stop-opacity:1"
+         offset="0"
+         id="stop4735" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1"
+         offset="1"
+         id="stop4737" />
+    </linearGradient>
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-4" />
+    <pattern
+       y="0"
+       x="0"
+       height="6"
+       width="6"
+       patternUnits="userSpaceOnUse"
+       id="EMFhbasepattern-1" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="20.48"
+     inkscape:cx="26.383006"
+     inkscape:cy="10.482068"
+     inkscape:document-units="px"
+     inkscape:current-layer="g4262"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1028"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Jorge Rosa</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>Email: jorge.bigarte@gmail.com
+Site:https://sites.google.com/site/jorgerosaportfolio</dc:description>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1026.3622)">
+    <g
+       id="g4262"
+       transform="translate(-0.04558686,0)">
+      <rect
+         y="1027.0566"
+         x="1.6471109"
+         height="22.090797"
+         width="22.705778"
+         id="rect4183-39-0-0-1-8"
+         style="opacity:1;fill:url(#radialGradient4725-4-0);fill-opacity:1;stroke:none;stroke-width:1.02858019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <rect
+         transform="scale(1,-1)"
+         y="-1049.0441"
+         x="1.6471109"
+         height="22.090797"
+         width="22.705778"
+         id="rect4183-39-0-0-1-8-78"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.02858019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         style="fill:#6f4aa8;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.5"
+         d="M 12.955078 6.3007812 C 9.9951001 6.3007812 7.5136719 8.7802344 7.5136719 11.740234 C 7.5136719 14.780134 9.9951001 17.179688 12.955078 17.179688 C 15.995056 17.179688 18.394531 14.780134 18.394531 11.740234 C 18.394531 8.7802344 15.995055 6.3007812 12.955078 6.3007812 z M 12.955078 7.2597656 C 15.43506 7.2597656 17.513672 9.2602344 17.513672 11.740234 C 17.513672 14.220134 15.43506 16.298828 12.955078 16.298828 C 10.475096 16.298828 8.4746094 14.220134 8.4746094 11.740234 C 8.4746094 9.2602344 10.475096 7.2597656 12.955078 7.2597656 z M 12.234375 8.5390625 L 12.234375 11.019531 L 9.7539062 11.019531 L 9.7539062 12.458984 L 12.234375 12.458984 L 12.234375 14.939453 L 13.673828 14.939453 L 13.673828 12.458984 L 16.154297 12.458984 L 16.154297 11.019531 L 13.673828 11.019531 L 13.673828 8.5390625 L 12.234375 8.5390625 z "
+         transform="translate(0.04558686,1026.3622)"
+         id="path4498" />
+    </g>
+  </g>
+</svg>
