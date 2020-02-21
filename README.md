@@ -89,6 +89,7 @@
 
 ---------------------------------------------------------------------------------
 
+- Lattest compiled MIXXX releases: http://downloads.mixxx.org/builds/master/release
 - DARK METAL webpage (at MIXXX forums): http://www.mixxx.org/forums/viewtopic.php?t=6052
 - This project at GITHUB: https://github.com/jorgerosa/Mixxx-DarkMetal-Skin
 - This project at SOURCEFORGE.NET: https://sourceforge.net/u/jorgerosa/profile
